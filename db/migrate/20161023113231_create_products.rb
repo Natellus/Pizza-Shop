@@ -1,5 +1,6 @@
 class CreateProducts < ActiveRecord::Migration
   def change
+
     create_table :products do |t|
       t.string :title
       t.text :description
@@ -11,6 +12,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string :path_to_image
       t.timestamps
     end
+
 
   end
 end
