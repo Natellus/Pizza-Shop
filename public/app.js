@@ -1,10 +1,10 @@
-function something()
-{
-	var x = window.localStorage.getItem('bbb');
-	x = x*1 + 1;
-	window.localStorage.setItem('bbb', x);
-	alert(x);
-};
+//function something()
+//{
+	//var x = window.localStorage.getItem('bbb');
+	//x = x*1 + 1;
+	//window.localStorage.setItem('bbb', x);
+	//alert(x);
+//};
 
 
 
@@ -16,7 +16,7 @@ var x = window.localStorage.getItem(key);
 x = x*1 + 1;
 window.localStorage.setItem(key, x);
 //number of items in the cart
-alert('Items in your cart: ' +cart_get_number_of_items());
+//alert('Items in your cart: ' +cart_get_number_of_items());
 };
 
 function cart_get_number_of_items()
