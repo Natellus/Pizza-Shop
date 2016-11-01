@@ -38,3 +38,24 @@
   </tbody>
 
 </table>
+
+<form action="/visit" method="POST" role="form">
+
+  <div class="form-group">
+    <label>Name:</label>
+    <input name="client[name]" type="text" class="form-control" placeholder="Your name">
+  </div>
+
+  <div class="form-group">
+    <label>Phone:</label>
+    <input name="client[phone]" type="text" class="form-control" placeholder="Your phone">
+  </div>
+ <div class="form-group">
+    <label>Delivery address:</label>
+    <textarea name="client[phone]" type="text" class="form-control" placeholder="Delivery address"></textarea>
+  </div>
+
+
+ <button type="submit" class="btn-success btn-lg">Place this order!</button>
+
+</form>
